@@ -2,6 +2,7 @@
 
 A simple python app to get data from discord lofi and put it in a json file at the same location as the `__main__.py` file.
 
+If you do not want to run this app yourself, you can see the result in the done folder of this repository.
 
 # Configuration
 First of all you want to coppy the .env.example to .env
@@ -10,7 +11,7 @@ To get the `DISCORD_ACTIVITY_TOKEN` and `DISCORD_SAYS_URL` you need to open your
 
 1. Open Discord and start the lofi activity.
 2. In the network tab, filter by json.
-3. Click the garbage icon in the top left corner.
+3. Click the garbage icon in the top left corner.says.moe
 4. Skip to the next song.
 5. There shuld be a reuest with the file as `1?seed=XXXXXXXXXX`.
 6. Copy the url of that request and paste it in the `.env` file as `DISCORD_SAYS_URL`.
