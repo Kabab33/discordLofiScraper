@@ -2,7 +2,7 @@
 
 A simple python app to get data from discord lofi and put it in a json file at the same location as the `__main__.py` file.
 
-If you do not want to run this app yourself, you can see the result in the done folder of this repository.
+If you do not want to run this app yourself, you can see the result in the Already Done ones folder.
 
 # Configuration
 First of all you want to coppy the .env.example to .env
